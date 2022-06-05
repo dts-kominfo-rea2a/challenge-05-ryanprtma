@@ -11,10 +11,9 @@ const sorter = (names, fnCallback) => {
 
   for (let i = 0; i <= names.length - 1; i++) {
     if (fnCallback(names)) {
-      hasil.push(i + 1 + "." + names[i]);
+      hasil.push(i + 1 + ". " + names[i]);
     }
   }
-
   return hasil;
 }
 
